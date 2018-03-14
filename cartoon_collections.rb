@@ -1,8 +1,8 @@
 def roll_call_dwarves(dwarves)
   i = 0
   collection = []
-  while i < array.length
-    collection << "1. #{yield(array[i])}"
+  while i < dwarves.length
+    collection << "1. #{yield(dwarves[i])}"
     i += 1
   end
   collection
