@@ -18,8 +18,6 @@ def find_the_cheese(items)
   cheese_types = ["cheddar", "gouda", "camembert"]
   # the method is coded below
   items.find    { |item|
-    cheese_types.each do |cheese_type|
-      return true if item == cheese_type
-    end
+    item == "cheddar" || item == "gouda" || item "camembert"
   }
 end
